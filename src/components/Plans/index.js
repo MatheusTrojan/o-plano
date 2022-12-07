@@ -2,8 +2,8 @@ import "./Plans.css"
 
 const Plans = (props) => {
     return (
-        <div className="plans__wrapper" >
-            <h2 className="plans__title" style={{ backgroundColor: props.primaryColor }}>{props.title}</h2>
+        <div className="plans__wrapper" style={{ backgroundColor: props.primaryColor }}>
+            <h2 className="plans__title" >{props.title}</h2>
             <div className="plans__price">
                 <h3>${props.price}</h3>
                 <p>per month</p>
